@@ -29,7 +29,7 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    command: 'dotnet pack'
+    command: 'pack'
     packagesToPack: '**/*.csproj'
     versioningScheme: 'off'
 
