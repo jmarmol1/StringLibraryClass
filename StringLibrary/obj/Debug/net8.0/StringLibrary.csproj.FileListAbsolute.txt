@@ -1,0 +1,11 @@
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\bin\Debug\net8.0\StringLibrary.deps.json
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\bin\Debug\net8.0\StringLibrary.dll
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\bin\Debug\net8.0\StringLibrary.pdb
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfoInputs.cache
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfo.cs
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.csproj.CoreCompileInputs.cache
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.dll
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\refint\StringLibrary.dll
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\StringLibrary.pdb
+Z:\Desktop\College\Winter2024\DevOps\Library_Lab4\StringLibrary\obj\Debug\net8.0\ref\StringLibrary.dll
