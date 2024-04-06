@@ -27,11 +27,14 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: NuGetCommand@2
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet pack'
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    versioningScheme: 'off'
+    configuration: 'Release'
+    outputDir: '$(Build.ArtifactStagingDirectory)'
+    verbosityPack: 'Detailed'
 
 - task: PublishBuildArtifacts@1
   inputs:
