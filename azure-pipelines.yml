@@ -16,6 +16,8 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '6.0'
 
 - task: NuGetCommand@2
   inputs:
@@ -27,14 +29,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: DotNetCoreCLI@2
-  displayName: 'dotnet pack'
+- task: NuGetCommand@2
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-    configuration: 'Release'
-    outputDir: '$(Build.ArtifactStagingDirectory)'
-    verbosityPack: 'Detailed'
+    versioningScheme: 'off'
 
 - task: NuGetCommand@2
   inputs:
