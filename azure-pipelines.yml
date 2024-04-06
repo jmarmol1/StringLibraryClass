@@ -36,8 +36,9 @@ steps:
     outputDir: '$(Build.ArtifactStagingDirectory)'
     verbosityPack: 'Detailed'
 
-- task: PublishBuildArtifacts@1
+- task: NuGetCommand@2
   inputs:
-    PathtoPublish: '$(build.artifactStagingDirectory)'
-    ArtifactName: 'drop'
-    publishLocation: 'Container'
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'b1e336f4-e259-40d0-9ea0-e2a37fec9ce5'
